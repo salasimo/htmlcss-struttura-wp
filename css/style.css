@@ -43,22 +43,24 @@ footer{
 
 aside{
     background-color: pink;
-    width: 30%;
+    width: 25%;
     height: 80%;
+
 }
 
 aside.left{
     float:left;
+    margin-right: 10px;
 }
 aside.right{
     float:right;
+    margin-left: 10px;
 }
 
 main{
     background-color: magenta;
     float:right;
     height: 100%;
-    width: 68%;
-
+    width: calc(50% - 20px);
 
 }
