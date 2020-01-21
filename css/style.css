@@ -11,17 +11,15 @@
 }
 
 .page-container{
-    margin: auto;
-
+    margin: 0 auto;
     width: 90vw;
-    height: 100vh;
     max-width: 1600px;
     position: relative;
 }
 
 header{
     height: 80px;
-    width:100%;
+    /* width:100%;  non necessario */
     background-color: yellow;
     margin-bottom: 5px;
 }
@@ -29,38 +27,44 @@ header{
 footer{
     height: 40px;
     width:100%;
-    position: absolute;
-    bottom: 0;
     background-color: lightblue;
     margin-top: 5px;
 }
 
+/*VERSIONE PAGINA SINGOLA
+
 .central-block{
     width:100%;
     height: calc(100% - 130px);
+}
 
+*/
+
+.central-block{ //VERSIONE CON ALTEZZA MAIN FISSA
+    width:100%;
+    height: 500px;
 }
 
 aside{
     background-color: pink;
     width: 25%;
-    height: 80%;
+    height: 300px;
 
 }
 
 aside.left{
     float:left;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 aside.right{
     float:right;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 main{
-    background-color: magenta;
+    background-color: purple;
     float:right;
     height: 100%;
-    width: calc(50% - 20px);
+    width: calc(50% - 10px);
 
 }
